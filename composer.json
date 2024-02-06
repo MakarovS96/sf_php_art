@@ -1,0 +1,19 @@
+{
+    "name": "sennin/sf_php_art",
+    "description": "Test php artifact for sf",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sennin\\SfPhpArt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sennin"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.3"
+    }
+}
